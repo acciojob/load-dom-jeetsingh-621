@@ -1,5 +1,5 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded",()=>{
-
-	document.body.textContent ="DOM Load seccess  ";
+const message = document.createTextNode("DOM load success");
+	  document.body.appendChild(message);
 })
